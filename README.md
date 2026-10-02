@@ -22,6 +22,8 @@ cd breeze
 cmake -B build -S . -DCMAKE_INSTALL_PREFIX=/usr
 cmake --build build
 sudo cmake --install build
+cd ~
+rm -rf breeze
 ```
 
 Then select **Breeze Titleless** in **System Settings → Window Decorations**.
