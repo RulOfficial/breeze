@@ -28,4 +28,13 @@ rm -rf breeze
 
 Then select **Breeze Titleless** in **System Settings → Window Decorations**.
 
+## Uninstalling
+
+Just delete the plugin and then reinstall breeze.
+
+```bash
+sudo rm -v /usr/lib/qt6/plugins/org.kde.kdecoration3/org.kde.breeze.titleless.so
+sudo pacman -S breeze
+```
+
 Based on KDE Breeze. See the [original Breeze repository](https://github.com/KDE/breeze) for the upstream project.
