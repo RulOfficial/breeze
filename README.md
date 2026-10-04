@@ -17,6 +17,7 @@ A modified version of KDE's [Breeze](https://invent.kde.org/plasma/breeze) windo
 Clone, build, and install the decoration:
 
 ```bash
+sudo pacman -S cmake extra-cmake-modules
 git clone https://github.com/RulOfficial/breeze.git
 cd breeze
 cmake -B build -S . -DCMAKE_INSTALL_PREFIX=/usr
@@ -24,6 +25,7 @@ cmake --build build
 sudo cmake --install build
 cd ~
 rm -rf breeze
+sudo pacman -Rs cmake extra-cmake-modules
 ```
 
 Then select **Breeze Titleless** in **System Settings → Window Decorations**.
